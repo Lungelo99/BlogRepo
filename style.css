@@ -1,0 +1,9 @@
+@font-face {
+  src: url(fonts/Poppins-Black);
+  font-family: pop;
+}
+
+
+h1 {
+    font-family: pop;
+}
