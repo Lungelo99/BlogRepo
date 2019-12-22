@@ -1,11 +1,29 @@
 @font-face {
-  src: url(fonts/Poppins-Black);
+  src: url(fonts/Poppins-Light.ttf);
   font-family: pop;
 }
 
+html, body {
 
-h1 {
-    font-family: pop;
+      height: 100%;
+      width: 100%;
+      font-family: pop, sans-serif;
+      color: #222;
+
+}
+
+.navbar{
+
+  padding: .8rem;
+
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
 }
 
 
@@ -17,14 +35,86 @@ h1 {
 
 }
 
+.carousel img{
 
-/*
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 
-For the text logo
-logo-text{
+}
 
+
+
+.carousel-caption h1{
+
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+
+}
+
+.jumbotron
+{
+
+  border-radius: 0;
+}
+
+.custom img{
+  cursor: pointer;
+}
+
+.padding{
+  padding: 1rem 0;
+}
+
+.light{
+
+  border: 0.5px solid #b4b4b4;
+   width: 75%;
 
 
 }
 
-*/
+
+.lighter{
+
+  border: 0.5px solid #b4b4b4;
+   width: 15%;
+
+}
+
+.social a{
+
+    font-size: 4.5em;
+    padding: 0 3rem;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+
+.fa-google-plus-g{
+  color: #dd4b39;
+}
+
+
+.fa-youtube{
+  color: #bb0000;
+}
+
+
+.facebook: hover,
+.fa-google-plus-g: hover,
+.fa-youtube: hover {
+color: #d5d5d5;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+/* Page Styling*/
