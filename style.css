@@ -26,6 +26,11 @@ html, body {
   font-size: 1.1em !important;
 }
 
+.logo-text1{
+  color:#3f3f3f;
+}
+
+
 
 .img-logo
 {
@@ -123,6 +128,7 @@ footer{
 
 .display-5{
   font-size: 350%;
+  color:#3f3f3f;
 }
 
 /* Media queries*/
